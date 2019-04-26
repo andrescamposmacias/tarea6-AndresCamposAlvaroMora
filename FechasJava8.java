@@ -55,12 +55,6 @@ public class FechasJava8 {
         
         // Método isBefore()
         
-        /* EJEMPLO CON LA CLASE MONTHDAY */
-        // Sólo guarda el día y el mes (no el año)
-        LocalDate diaAnda = LocalDate.of(1976, Month.FEBRUARY, 28);
-        
-        MonthDay diaMesAndalucia = MonthDay.of(diaAnda.getMonth(), diaAnda.getDayOfMonth());
-        MonthDay diaMesHoy = MonthDay.from(LocalDate.now());
         
         if (diaMesAndalucia.equals(diaMesHoy)){
             System.out.println("Hoy es el día de Andalucía");
@@ -152,6 +146,11 @@ public class FechasJava8 {
         System.out.println("Fecha con formato " + fechaString2);
         
 
+
+        /* EJEMPLO CON LA CLASE MOTHDAY */
+        
+        
+>>>>>>> parent of 67ee45f... Ejemplo clase MonthDay
     }
     
 }
